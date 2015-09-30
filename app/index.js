@@ -8,6 +8,11 @@ module.exports = generators.Base.extend(
 		// Next, add your custom code
 		this.option('coffee'); // This method adds support for a '--coffee' flag
 	},
+	init: function(){
+		this.helperMethod = function(){
+			console.log('won\'t be called automatically');
+		}
+	},
 	method1: function(){
 		console.log('Method 1 just ran');
 	},
