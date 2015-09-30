@@ -1,2 +1,1 @@
-# yeoman-generator 
-# multicenter-generator 
+ # multicenter-generator 
