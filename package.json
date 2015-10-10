@@ -1,6 +1,6 @@
 {
   "name": "generator-multicenter-boilerplate",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Generator a webapp component generator",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,11 @@
   },
   "author": {
 	"name": "Chung Ho",
-	"email": "hmchung92@gmail.com"
+	"email": "hmchung92@gmail.com",
+	"url": "https://github.com/cminhho"
   },
-  "license": "ISC",
+  "repository": "cminhho/generator-multicenter-boilerplate",
+  "license": "MIT",
   "keywords": [
     "yeoman-generator"
   ],
@@ -24,5 +26,11 @@
   },
   "devDependencies": {
 	
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
   }
 }
