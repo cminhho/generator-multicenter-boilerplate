@@ -1,3 +1,0 @@
-instrumentation:
-    default-excludes: false
-    excludes: [node_modules/**, test/*, test/node/**, test/template/**, test/inception/**]

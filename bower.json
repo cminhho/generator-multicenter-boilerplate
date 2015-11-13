@@ -1,0 +1,38 @@
+{
+  "name": "##app.name##",
+  "version": "0.0.0",
+  "authors": [
+    "Alcatel-Lucent"
+  ],
+  "description": "boilerplate for creating bower components",
+  "main": [
+    "##app.name##.js",
+    "##app.name##.css"
+  ],
+  "dependencies": {
+    "angular": "^1.4.0",
+    "angular-animate": "^1.4.0",
+    "angular-aria": "^1.4.0",
+    "angular-route": "^1.4.0",
+    "angular-sanitize": "^1.4.0",
+    "angular-touch": "^1.4.0",
+    "angular-material": "~0.10.0",
+    "angular-resource": "~1.4.0",
+    "angular-translate": "~2.7.2",
+    "angular-cookies": "~1.4.0",
+    "angular-translate-storage-local": "~2.7.2",
+    "angular-translate-loader-static-files": "~2.7.2",
+    "angular-ui-router": "~0.2.15"
+  },
+  "license": "PRIVATE",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.4.5"
+  }
+}

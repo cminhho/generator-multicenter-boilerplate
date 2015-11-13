@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html class="no-js" ng-app="##app.name##-example" ng-cloak translate-cloak>
+<head>
+    <meta charset="utf-8">
+    <base href="/">
+    <title>/##app.name##/</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ACCESS MANAGEMENT SYSTEM (AMS)"/>
+    <meta http-equiv="x-ua-compatible" content="IE=edge">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css(.) assets/styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.) assets/styles/main.css -->
+    <!-- injector:css -->
+    <!-- endinjector -->
+    <!-- endbuild -->
+
+</head>
+<body>
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+    your browser</a> to improve your experience.</p>
+<![endif]-->
+<!-- Add your site or application content here -->
+<div class="">
+    <header afnc-main-header></header>
+    <!--/header-->
+
+    <section layout-fill ui-view></section>
+    <!--/container-->
+    <sample-directive></sample-directive>
+    <!--/footer-->
+</div>
+<!-- build:js scripts/oldieshim.js -->
+<!--[if lt IE 9]>
+<script src="../bower_components/es5-shim/es5-shim.js"></script>
+<script src="../bower_components/json3/lib/json3.js"></script>
+<![endif]-->
+<!-- endbuild -->
+
+<!-- build:js scripts/vendor.js -->
+
+<!-- bower:js -->
+<!-- endbower -->
+<!-- endbuild -->
+
+<!-- build:js  scripts/app.js -->
+<!-- injector:js -->
+<!-- endinjector -->
+<script src="/##app.name##/app.js"></script>
+<!-- endbuild -->
+
+</body>
+</html>
